@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Name : Abhay Panchal 
+     Student Number : 000813104
+     Date : 02-10-2020 -->
+
+<!-- This html page is used for creating form which use php file and GET method-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Daily Tasks</title>
+</head>
+<body>
+    <div class="heading"> 
+        <h1>Your Daily Routine</h1>
+    </div>
+    <div>
+        <form method="GET" action="DailyRoutine.php">
+            Day<input type="text" name="day" class="day" required>
+            Month<input type="text" name="month" class="month" required>
+            Year<input type="text" name="year" class="year" required><br>
+        <div class="grid">
+            <div>
+                <h4>AM </h4>
+                12:00 to 1:00<input type="text" name="time1" class="time"><br>
+                1:00 to 2:00<input type="text" name="time2" class="time"><br>
+                2:00 to 3:00<input type="text" name="time3" class="time"><br>
+                3:00 to 4:00<input type="text" name="time4" class="time"><br>
+                4:00 to 5:00<input type="text" name="time5" class="time"><br>
+                5:00 to 6:00<input type="text" name="time6" class="time"><br>
+                6:00 to 7:00<input type="text" name="time7" class="time"><br>
+                7:00 to 8:00<input type="text" name="time8" class="time"><br>
+                8:00 to 9:00<input type="text" name="time9" class="time"><br>
+                9:00 to 10:00<input type="text" name="time10" class="time2"><br>
+                10:00 to 11:00<input type="text" name="time11" class="time2"><br>
+                11:00 to 12:00<input type="text" name="time12" class="time2"><br>
+            </div>
+            <div>
+                <h4>PM</h4>
+                12:00 to 1:00<input type="text" name="time13" class="time2"><br>
+                1:00 to 2:00<input type="text" name="time14" class="time2"><br>
+                2:00 to 3:00<input type="text" name="time15" class="time2"><br>
+                3:00 to 4:00<input type="text" name="time16" class="time2"><br>
+                4:00 to 5:00<input type="text" name="time17" class="time2"><br>
+                5:00 to 6:00<input type="text" name="time18" class="time2"><br>
+                6:00 to 7:00<input type="text" name="time19" class="time2"><br>
+                7:00 to 8:00<input type="text" name="time20" class="time2"><br>
+                8:00 to 9:00<input type="text" name="time21" class="time2"><br>
+                9:00 to 10:00<input type="text" name="time22" class="time2"><br>
+                10:00 to 11:00<input type="text" name="time23" class="time2"><br>
+                11:00 to 12:00<input type="text" name="time24" class="time2"><br>
+            </div>
+        </div>
+            <input type="submit" name = "submit" value="Get Your All Tasks By Clicking Here" class="submit_btn">
+            <input type="reset" name = "reset" value="Clear All" class="reset_btn">
+         
+        </form>
+    </div>
+</body>
+</html>

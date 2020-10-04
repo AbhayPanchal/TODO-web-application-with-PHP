@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+    background-image: url("img/pic1.jpg");
+    border-image-width: 100%;
+}
+
+/*   Name : Abhay Panchal 
+     Student Number : 000813104
+     Date : 02-10-2020 */
+
+     /* This is CSS file for both html and php files which used to style both pages. */
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      width: 100%;
+    }
+
+    .date,.date1{
+        text-align: center;
+    }
+
+    .heading,.h1{
+        text-align: center;
+    }
+  }
+
+.heading{
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+.grid{
+    display: flex;
+
+}
+.grid div{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.grid div h4{
+    margin-left: 90px;
+}
+
+form{
+    padding: 5px;
+    text-align: center;
+    color :  White;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.day,.month,.year{
+    margin-left: 5px;
+}
+
+.time{
+    padding: 5px;
+    margin-left: 11px;
+}
+
+.time2{
+    padding : 5px;
+    margin-left: 7px;
+}
+
+.submit_btn{
+    margin-left: 100px;
+    margin-top: 10px;
+    size: 5cm;
+
+}
+
+.h1{
+    text-align: center;
+    width: 30%;
+    margin-left: 33%;
+    color : white;
+    font : large;
+}
+.date{
+    margin-left: 43%;
+    margin-top: 10px;
+    color : white;
+    font : large;
+    
+}
+
+.date1{
+    margin-left: 43.8%;
+    margin-top: 10px;
+    width: 6.8%;
+    padding: 7px;
+    color : white;
+    font : large;
+}
+
+.date1:hover{
+    transform: scale(2);
+}
+
+.for{
+    border: 3px solid black;
+    border-radius: 8px;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.for:hover{
+    border : 3px solid rgb(6, 116, 2);
+}
+
+.hours{
+    margin-left: 32%;
+    color:  white;
+    font-size: x-large;
+}
+
+.hourss{
+    margin-left: 53.3%;
+    font-size: xx-large;
+    color: white;
+}
+
+.hours:hover{
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+
+}
+
+.hourss:hover{
+    cursor: pointer;
+    color: rgb(219, 139, 18);
+    font-weight: bold;
+    transform: scale(1.5);
+}
